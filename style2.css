@@ -43,7 +43,7 @@
     }
 }
 
-@media (min-width: 430px) {
+@media (min-width: 700px) {
     .container .g {
         width: 50%;
     }
