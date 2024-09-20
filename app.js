@@ -50,7 +50,7 @@ PortFolioLink.addEventListener("click", () => {
 })
 
 PortFolioLive.addEventListener("click", () => {
-    window.open('https://dattarahegaonkarportfolio.netlify.app/','_black');
+    window.open('https://portfolio-kl9b.onrender.com/','_black');
 })
 
 StayHavenLink.addEventListener("click", () => {
