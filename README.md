@@ -1,9 +1,6 @@
 # PortFolio
 This project showcases my skills and work in software development. As a 3rd-year student majoring in software development, I have built various projects using technologies like HTML, CSS, JavaScript, Node.js, and more.
 
-# About
-This portfolio is a reflection of my journey in software development, featuring projects that demonstrate my capabilities and creativity. I am passionate about building intuitive and efficient applications that enhance user experiences.
-
 # Features
 - **Responsive Design** : The portfolio is fully responsive, ensuring a seamless experience on all devices.
 - **Project Highlights** :Detailed descriptions of each project, including technologies used, challenges faced, and solutions implemented Links to live demos and GitHub repositories for easy access to my work.
@@ -24,3 +21,6 @@ This portfolio is a reflection of my journey in software development, featuring 
 - **About Section** : Detailed background information about my journey in software development and my key areas of expertise.
 - **Projects Section** : Highlights some of my best work, including descriptions, technologies used, and links to live demos or repositories.
 - **Contact Section** : Easy ways to get in touch with me for collaboration, job opportunities, or inquiries.
+
+# Overview
+This portfolio is a reflection of my journey in software development, featuring projects that demonstrate my capabilities and creativity. I am passionate about building intuitive and efficient applications that enhance user experiences.
