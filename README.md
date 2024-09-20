@@ -6,9 +6,7 @@ This portfolio is a reflection of my journey in software development, featuring 
 
 # Features
 - **Responsive Design** : The portfolio is fully responsive, ensuring a seamless experience on all devices.
-- **Project Highlights** :
-- Detailed descriptions of each project, including technologies used, challenges faced, and solutions implemented.
-- Links to live demos and GitHub repositories for easy access to my work.
+- **Project Highlights** :Detailed descriptions of each project, including technologies used, challenges faced, and solutions implemented Links to live demos and GitHub repositories for easy access to my work.
 - **Contact Information** : A section for potential employers or collaborators to reach out directly.
 
 # Projects
