@@ -137,31 +137,13 @@
                 <hr>
                 <div class="copyright">
                     <i class="fa-regular fa-copyright"></i>
-                    <p>2024 - Portfolio developed by <span>Datta Rahegaonkar</span> <span id="visit-count"></span> </p>
+                    <p>2024 - Portfolio developed by <span>Datta Rahegaonkar</span></p>
                 </div>
             </div>
         </div>
      </footer>
 
     <script src="app.js"></script>
-     <script src="app2.js"></script>
-
-     <script>
-    function trackVisits() {
-        let visitCount = localStorage.getItem('visitCount');
-
-        if (visitCount) {
-            visitCount = parseInt(visitCount) + 1;
-        } else {
-            visitCount = 1;
-        }
-
-        localStorage.setItem('visitCount', visitCount);
-
-        document.getElementById('visit-count').innerText = visitCount;
-    }
-    window.onload = trackVisits;
-</script>
-     
+     <script src="app2.js"></script>     
 </body>
 </html>
