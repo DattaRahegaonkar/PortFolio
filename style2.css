@@ -414,7 +414,8 @@
     width: 100%;
     background-color: #fff;
     border-left: 2px solid red;
-    animation: animate 4s steps(18) infinite;
+    animation: animate 4s steps(18) infinite,
+    cursor .4s step-end infinite alternate;
 }
 
 .information .second {
@@ -430,7 +431,13 @@
     width: 100%;
     background-color: #fff;
     border-left: 2px solid red;
-    animation: animate 4s steps(18) infinite;
+    animation: 
+        animate 4s steps(18) infinite,
+        cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor{
+    50% { border-color: transparent;}
 }
 
 @keyframes animate{
