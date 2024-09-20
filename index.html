@@ -137,7 +137,7 @@
                 <hr>
                 <div class="copyright">
                     <i class="fa-regular fa-copyright"></i>
-                    <p>2024 - Portfolio developed by <span>Datta Rahegaonkar</span></p>
+                    <p>2024 - Portfolio developed by <span>Datta Rahegaonkar</span> <span id="visit-count"></span> </p>
                 </div>
             </div>
         </div>
@@ -145,6 +145,25 @@
 
     <script src="app.js"></script>
      <script src="app2.js"></script>
+     <script>
+        function trackUniqueVisits() {
+            let isVisited = localStorage.getItem('isVisited');
+
+            if (!isVisited) {
+                localStorage.setItem('isVisited', 'true');
+                let visitCount = localStorage.getItem('visitCount');
+                if (!visitCount) {
+                    visitCount = 1;
+                } else {
+                    visitCount = parseInt(visitCount) + 1;
+                }
+                localStorage.setItem('visitCount', visitCount);
+            }
+            document.getElementById('visit-count').innerText = localStorage.getItem('visitCount') || 1;
+        }
+
+        window.onload = trackUniqueVisits;
+    </script>
      
 </body>
 </html>
