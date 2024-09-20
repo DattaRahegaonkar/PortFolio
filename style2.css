@@ -401,11 +401,43 @@
     }
 }
 
-/* @media (min-width: 1245px) {
-    .front {
-        margin-right: 12rem;
+.information .first {
+    position: relative;
+}
+
+.information .first:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    border-left: 2px solid red;
+    animation: animate 4s steps(18) infinite;
+}
+
+.information .second {
+    position: relative;
+}
+
+.information .second:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    border-left: 2px solid red;
+    animation: animate 4s steps(18) infinite;
+}
+
+@keyframes animate{
+    40%, 60% {
+        left: 100%;
     }
-    .front img {
-        width: 300px;
+    100%{
+        left: 0%;
     }
-} */
+}
