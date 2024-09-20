@@ -145,25 +145,23 @@
 
     <script src="app.js"></script>
      <script src="app2.js"></script>
-     <script>
-        function trackUniqueVisits() {
-            let isVisited = localStorage.getItem('isVisited');
 
-            if (!isVisited) {
-                localStorage.setItem('isVisited', 'true');
-                let visitCount = localStorage.getItem('visitCount');
-                if (!visitCount) {
-                    visitCount = 1;
-                } else {
-                    visitCount = parseInt(visitCount) + 1;
-                }
-                localStorage.setItem('visitCount', visitCount);
-            }
-            document.getElementById('visit-count').innerText = localStorage.getItem('visitCount') || 1;
+     <script>
+    function trackVisits() {
+        let visitCount = localStorage.getItem('visitCount');
+
+        if (visitCount) {
+            visitCount = parseInt(visitCount) + 1;
+        } else {
+            visitCount = 1;
         }
 
-        window.onload = trackUniqueVisits;
-    </script>
+        localStorage.setItem('visitCount', visitCount);
+
+        document.getElementById('visit-count').innerText = visitCount;
+    }
+    window.onload = trackVisits;
+</script>
      
 </body>
 </html>
