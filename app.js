@@ -42,7 +42,7 @@ ClimateLink.addEventListener("click", () => {
 })
 
 ClimateLive.addEventListener("click", () => {
-    window.open('https://climatecast67.netlify.app/','_black');
+    window.open('https://climate-cast.onrender.com/','_black');
 })
 
 PortFolioLink.addEventListener("click", () => {
